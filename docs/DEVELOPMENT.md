@@ -30,7 +30,7 @@ Use production preview to check each route directly and after refresh. Verify ti
 
 See the [Git submission guide](GIT_SUBMISSION.md) for identity setup, staging, required checks, branch submissions, direct pushes, and recovery.
 
-Keep source, tests (including compiler snapshots), public assets, documentation, agent guidance, package-lock.json, and configuration in Git. Keep generated routeTree.gen.ts tracked so typechecking and tests work before running Vite; route generation updates it during builds. Build output, installed dependencies, caches, browser data exports, and credentials must stay out of Git. Environment files are ignored; there are no required environment variables for offline compilation.
+Keep source, tests (including compiler snapshots), public assets, documentation, root AGENT.md and AGENTS.md guidance, package-lock.json, and configuration in Git. Keep .agents local and untracked. Keep generated routeTree.gen.ts tracked so typechecking and tests work before running Vite; route generation updates it during builds. Build output, installed dependencies, caches, browser data exports, and credentials must stay out of Git. Environment files are ignored; there are no required environment variables for offline compilation.
 
 The GitHub Actions workflow installs from the lockfile and runs build, typecheck, lint, and tests on pushes and pull requests. Browser smoke checks remain a separate local verification step. The repository uses LF line endings through .gitattributes and .editorconfig.
 

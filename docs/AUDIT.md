@@ -65,6 +65,8 @@ Baseline and rewritten layouts were captured with the same demo state on desktop
 
 ## Initial repository preparation — 2026-10-03
 
+After the initial push, the owner requested that .agents remain local. A follow-up commit removes that directory from tracking and ignores it while preserving the local files. Root AGENT.md and AGENTS.md remain shared guidance. Earlier published commits retain the directory; history is not rewritten.
+
 Initialized a new local main branch and configured the empty aiforhumans/qwen-studio remote. Retained source, documentation, compiler snapshots, the npm lockfile, generated route declarations, and agent guidance. Excluded installed dependencies, build output, caches, environment credentials, test reports, and local backups. Added LF normalization, editor configuration, and a GitHub Actions verification workflow with pinned action revisions and read-only permissions. No license was inferred or added.
 
 Exported the staged files into a separate clean directory. npm ci, production build, typecheck, lint with zero warnings, and **93 tests in 12 files** passed there. The six additional tests cover the Canvas target option, persistence/import, undo/redo, and all five prompt formats. Earlier compiler characterization snapshots remain unchanged. Staged-file checks found no credential files, dependency/build/cache directories, or individual files over 5 MB. A credential-pattern scan found no credentials; this is a limited check, not a complete security audit.

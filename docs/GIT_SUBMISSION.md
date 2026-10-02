@@ -16,7 +16,7 @@ Identity settings above apply only to this checkout. Authenticate using your Git
 
 ## What belongs in a submission
 
-Commit source, tests and compiler characterization snapshots, documentation, public assets, agent guidance, configuration, and package-lock.json. Keep src/routeTree.gen.ts tracked: typecheck and tests use its declarations before Vite runs. Review route changes after a build.
+Commit source, tests and compiler characterization snapshots, documentation, public assets, the root AGENT.md and AGENTS.md guidance, configuration, and package-lock.json. The .agents directory contains local tooling and must stay untracked. Keep src/routeTree.gen.ts tracked: typecheck and tests use its declarations before Vite runs. Review route changes after a build.
 
 Keep node_modules, dist, legacy runtime output, caches, coverage, browser reports, credentials, environment files, backups, and browser data exports out of Git. .gitignore excludes common examples. Ignoring a file does not remove it if it was already tracked; inspect the staged list. Do not commit provider API keys, even inside example settings or screenshots.
 
