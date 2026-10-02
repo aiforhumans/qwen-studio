@@ -39,6 +39,7 @@ The former TanStack Start/Nitro runtime has been replaced by Vite and React. Lov
 - [Architecture](docs/ARCHITECTURE.md)
 - [Development and testing](docs/DEVELOPMENT.md)
 - [First push to a new repository](docs/DEVELOPMENT.md#first-push-to-a-new-repository)
+- [Detailed Git submission guide](docs/GIT_SUBMISSION.md)
 - [Storage and contracts](docs/STORAGE.md)
 - [Providers and configuration](docs/PROVIDERS.md)
 - [Prompting guide](docs/QWEN_2.1_PROMPTING_GUIDE.md)

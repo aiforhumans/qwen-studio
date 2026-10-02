@@ -6,6 +6,7 @@ Each maintained page has one primary responsibility. Historical audit reports we
 | ---------------------------------------------- | ------------------------------------------------------------------ |
 | [Architecture](ARCHITECTURE.md)                | State ownership, module boundaries, runtime flow, extension points |
 | [Development](DEVELOPMENT.md)                  | Setup, commands, tests, troubleshooting, static hosting            |
+| [Git submission](GIT_SUBMISSION.md)            | Repository setup, review, verification, commits, pushes, recovery  |
 | [Storage](STORAGE.md)                          | Project compatibility, storage keys, assets, backup contracts      |
 | [Providers](PROVIDERS.md)                      | Optional integration contracts, configuration, errors, logging     |
 | [Prompting guide](QWEN_2.1_PROMPTING_GUIDE.md) | Reference roles, locks, formats, and copying                       |
